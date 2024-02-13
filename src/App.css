@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.traffiLight {
+  max-width: 400px;
+  width: 180px;
+  height: 500px;
+  border: 1px solid transparent;
+  border-radius: 50px 50px 50px 50px;
+  margin: 50px auto 0 auto;
+  background: #585f68;
+  box-shadow: 0 0 10px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.light {
+  border: 1px solid transparent;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: #df4040;
+}
+
+.yellow {
+  background-color: #e9ec6a;
+}
+
+.green {
+  background-color: #04ca00;
+}
+
+.grey {
+  background-color: #585f68;
+}
