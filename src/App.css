@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.traffiLight {
+.trafficLight {
   max-width: 400px;
   width: 180px;
   height: 500px;
@@ -23,20 +23,30 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-}
-
-.red {
-  background-color: #df4040;
-}
-
-.yellow {
-  background-color: #e9ec6a;
-}
-
-.green {
-  background-color: #04ca00;
+  transition: all 0.3s ease-in-out;
 }
 
 .grey {
+  opacity: 1;
   background-color: #585f68;
+}
+
+/* .allLights {
+  opacity: 1;
+  background-color: blue;
+} */
+
+.light-red {
+  opacity: 1;
+  background-color: #df4040;
+}
+
+.light-yellow {
+  opacity: 1;
+  background-color: #e9ec6a;
+}
+
+.light-green {
+  opacity: 1;
+  background-color: #04ca00;
 }
