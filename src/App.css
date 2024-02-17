@@ -1,6 +1,7 @@
 * {
   padding: 0;
   box-sizing: border-box;
+  background-color: whitesmoke;
 }
 
 .trafficLight {
@@ -25,16 +26,10 @@
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
-
 .grey {
   opacity: 1;
   background-color: #585f68;
 }
-
-/* .allLights {
-  opacity: 1;
-  background-color: blue;
-} */
 
 .light-red {
   opacity: 1;
